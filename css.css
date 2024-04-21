@@ -1,0 +1,233 @@
+* {
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+body{
+    background-color: rgb(255 249 246);
+
+}
+header{
+    width: 100%;
+    height: auto;
+    background-color: rgb(147 98 74);
+    }
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 15px;
+    width: 100%;
+}
+nav ul li{
+    display: inline-block;
+    padding: 9px 8px;
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 13px;
+}
+nav ul li :hover{
+    color: rgb(201, 162, 145);
+    font-weight: bold;
+}
+#Sign{
+    padding: 0 30px 0 100px;
+    margin: 0px 28px 0 -43px;
+}
+.record {
+    border-radius: 27px;
+    font-size: 13px;
+    padding: 5Px;
+}
+nav ul li .record:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(149 77 42);
+}
+.Slam1{
+    padding: 61px 50px ;
+    margin: 13px auto;
+    margin-inline-end: -14px ;
+    padding-inline-end: 43px;
+}
+.img{
+    float: right;
+}
+div h1 , h3 {
+    color: #9b5757;
+    font-style: italic;
+    padding-left: 15px;
+    line-height: 156%
+}
+div p{
+    font-size: 11px;
+}
+div .styl {
+    padding-right:105px ;
+    margin:4px 63px -72px 0 ;
+}
+.button:link, .button:visited {
+    border: 3px solid rgb(149 77 42);
+    border-radius: 30px;
+    color: black;
+    margin: 10px 59px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    padding: 1px 8px ;
+  }
+  .button:hover, .button:active {
+    border: 3px solid transparent;
+    color: #fff;
+    font-weight: bold;
+    background-color: #9b5757;
+  }
+  h6{
+    letter-spacing: 2Px;
+    font-size: 9px;
+  }
+  .img-coffe{
+    float: left;
+    border: 3px solid transparent;
+    border-radius: 20px;
+  }
+  .Slam2{
+    padding: 82px 19px 0 48px;
+    margin: auto;
+  }
+  .Maja-Kling{
+    padding-top: 30px;
+    line-height: 90%;
+    margin-left: 175px;
+  }
+  .time{
+    text-align: center;
+  }
+.days ,.hours ,.minutes ,.seconds {
+    border-radius: 12px;
+    background-color: #9b5757;
+    padding: 1px 8px ;
+}
+.Create{
+    width: 831px;
+    max-width: 78vw;
+    height: 423px;
+    margin: 25px auto;
+    position: relative;
+    overflow: hidden;
+}
+.Create .list{
+    position: absolute;
+    width: max-content;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    transition: 2s;
+}
+.Create .list img{
+    width: 1300px;
+    max-width: 100vw;
+    height: 100%;
+    object-fit: cover;
+}
+.Create .buttons{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.Create .buttons button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff5;
+    color: #fff;
+    border: none;
+    font-family: monospace;
+    font-weight: bold;
+}
+.Create .dots{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.Create .dots li{
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.Create .dots li.active{
+    width: 30px;
+}
+@media screen and (max-width: 768px){
+    .Create{
+        height: 400px;
+    }
+}
+.types{
+    text-align: center;
+    line-height:10px ;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #c59b9b;
+}
+h2{
+    margin-bottom:15pX ;
+}
+.massage{
+        height: 150px;
+        resize: none;
+}
+ form #button{
+    border: none;
+    background: #793e3e;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    width: 100px;
+    padding: 0;
+    margin-right: 500px;
+    margin-bottom: 18px;
+    transition: 0.3s;
+}
+form #button:hover{
+    background-color: #ceb8b8;
+    border: 2px solid #793e3e;
+    color: #694f4f;    
+}
+ footer p{
+    margin-left: 40px;
+    letter-spacing: 1px;
+    
+}
+.end{
+    margin: 50%;;
+}
